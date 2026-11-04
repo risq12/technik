@@ -1,49 +1,37 @@
-# TECHNIK AI — starter Flutter
+# TECHNIK AI 0.2.0
 
-Pierwszy szkielet aplikacji Android:
-- motyw jasny i ciemny,
-- język polski i angielski,
-- ekran główny z postępem nauki,
-- katalog dziedzin technicznych,
-- przykładowe dane lokalne.
+Testowa rozbudowana wersja aplikacji Flutter.
 
-## Jak uzyskać APK bez instalowania Flutter SDK na swoim komputerze
+## Co zawiera
+- 14 ścieżek nauki, w tym osobne kursy CAD: Tinkercad, Fusion 360, Onshape, Inventor, AutoCAD i FreeCAD.
+- Lekcje z teorią prostym językiem, analogią, opisem działania, wzorami, przykładem, zadaniem i quizem.
+- Mechanika: podstawy, przełożenia, moment, moc i diagnostyka usterek odblokowywana po podstawach.
+- Elektronika: prąd, napięcie, rezystancja, obwody, LED, multimetr, tranzystory i bezpieczeństwo.
+- Elektromechanika i Arduino zablokowane do czasu ukończenia podstaw elektroniki.
+- Automatyka, programowanie, Arduino i energetyka.
+- Symulator obwodu LED oraz symulator przekładni.
+- XP, poziomy, postępy i lokalny zapis ukończonych lekcji.
+- Ciemny motyw i przełącznik języka interfejsu (część etykiet jest jeszcze po polsku).
 
-Projekt zawiera GitHub Actions, które kompiluje APK na serwerze GitHub.
+## Budowanie APK
+Workflow GitHub Actions buduje testowy APK po pushu do `main`.
+Artefakt: `technik-ai-debug-apk`.
 
-1. Zaloguj się lub załóż konto na GitHub.
-2. Utwórz nowe **publiczne** repozytorium, np. `technik-ai`.
-3. Rozpakuj ZIP i wgraj do repozytorium całą zawartość folderu `technik_ai_flutter` (razem z ukrytym folderem `.github`). Możesz użyć opcji **Add file → Upload files**.
-4. Zatwierdź zmiany przyciskiem **Commit changes**.
-5. Otwórz zakładkę **Actions** w repozytorium. Workflow „Build TECHNIK AI APK” powinien uruchomić się automatycznie. Jeśli nie, wybierz go i kliknij **Run workflow**.
-6. Po zakończeniu kompilacji otwórz wykonany przebieg (zielony status), przewiń do **Artifacts** i pobierz `technik-ai-debug-apk`.
-7. Rozpakuj pobrane archiwum ZIP — w środku będzie `app-debug.apk`. Prześlij go na telefon i zainstaluj.
+## Logowanie Google – wymagane kroki konfiguracyjne
+Ekran logowania Google i obsługa Firebase Auth są już w kodzie. Żeby logowanie faktycznie działało, trzeba podpiąć własny projekt Firebase – dane OAuth są unikalne dla aplikacji i nie mogę ich wymyślić.
 
-Do pobrania APK nie potrzeba Flutter SDK ani Android Studio na komputerze. GitHub może wymagać zalogowania. Nie publikuj w repozytorium żadnych kluczy API ani haseł.
+1. Otwórz https://console.firebase.google.com/ i utwórz projekt.
+2. Dodaj aplikację Android. Identyfikator pakietu po `flutter create` to domyślnie `com.example.technik_ai` (sprawdź `applicationId` w `android/app/build.gradle` lub `android/app/build.gradle.kts`).
+3. W Firebase Authentication → Sign-in method włącz dostawcę Google.
+4. W ustawieniach aplikacji Android dodaj SHA-1 i SHA-256 klucza debug. W katalogu `android` można je wyświetlić poleceniem `./gradlew signingReport` (Windows: `gradlew.bat signingReport`).
+5. W Firebase Project settings → Your apps / OAuth pobierz Web client ID (typ klienta Web application).
+6. Otwórz `lib/firebase_config.dart` i wstaw `apiKey`, `appId`, `messagingSenderId`, `projectId` oraz `webClientId` z własnego projektu Firebase.
+7. Zapisz zmiany i ponownie zbuduj APK przez GitHub Actions.
 
-## Lokalna kompilacja (opcjonalnie)
+W kodzie użyte jest oficjalne okno logowania Google i Firebase Authentication. Nie wpisuj hasła Google w aplikacji. Nie commituj prywatnych kluczy serwisowych ani haseł. Wartości Firebase aplikacji mobilnej i OAuth Client ID nie są hasłami, ale nie publikuj dodatkowych sekretów serwerowych.
 
-```bash
-flutter pub get
-flutter run
-flutter build apk --debug
-```
-
-## Struktura
-
-```text
-lib/
-  main.dart
-  app/
-  data/
-  models/
-  screens/
-  widgets/
-.github/workflows/android-apk.yml
-```
-
-## Ważne
-
-To demonstracyjny punkt startowy UI, a nie gotowy produkt produkcyjny. Dane są przykładowe. Na tym etapie nie ma jeszcze backendu, kont użytkowników, właściwych kursów ani połączenia z AI. APK z GitHub Actions będzie kompilacją debug, przeznaczoną do testów.
-
-Nie umieszczaj kluczy API w aplikacji Android.
+## Ważne ograniczenia
+- Symulacje są edukacyjnymi prototypami, a nie symulatorami fizycznymi klasy inżynierskiej.
+- Postępy zapisują się lokalnie na urządzeniu; nie synchronizują się między urządzeniami.
+- Quizy mają proste sprawdzanie jednej odpowiedzi. Egzaminy końcowe, AI tutor i pełne animacje są kolejnymi etapami.
+- Materiały wymagają dalszej weryfikacji i rozbudowy przed publikacją.

@@ -1,9 +1,9 @@
-name: Build TECHNIK AI APK
+name: Build Android APK
 
 on:
-  workflow_dispatch:
   push:
-    branches: [ main, master ]
+    branches: [main]
+  workflow_dispatch:
 
 permissions:
   contents: read
@@ -12,31 +12,25 @@ jobs:
   build-android:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout source
+      - name: Checkout repository
         uses: actions/checkout@v4
-
-      - name: Set up Java
-        uses: actions/setup-java@v4
+      - name: Setup Java
+        uses: actions/setup-java@v5
         with:
           distribution: temurin
           java-version: '17'
-
-      - name: Set up Flutter
+      - name: Setup Flutter
         uses: subosito/flutter-action@v2
         with:
           channel: stable
-          cache: true
-
+      - name: Generate Android project
+        run: flutter create . --platforms=android
       - name: Install dependencies
         run: flutter pub get
-
-      - name: Build debug APK
+      - name: Build APK
         run: flutter build apk --debug
-
       - name: Upload APK
         uses: actions/upload-artifact@v4
         with:
           name: technik-ai-debug-apk
           path: build/app/outputs/flutter-apk/app-debug.apk
-          if-no-files-found: error
-          retention-days: 14
