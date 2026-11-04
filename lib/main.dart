@@ -497,7 +497,7 @@ class CoursePage extends StatelessWidget {
         Text('${ls.where((l)=>store.completed.contains(l.id)).length} z ${ls.length} lekcji ukończonych'),
         const SizedBox(height:8),
         LinearProgressIndicator(value:store.progress(course.id)),
-      ])),
+        ]))),
       if(course.id.startsWith('cad_')) ...[
         const SizedBox(height:8),
         Text('Program: ${course.title.replaceFirst('CAD: ','')}',style:Theme.of(context).textTheme.bodyMedium),
