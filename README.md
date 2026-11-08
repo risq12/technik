@@ -1,42 +1,51 @@
-# TECHNIK AI 0.3.0
+# TECHNIK AI 0.4.0
 
-Rozbudowana wersja edukacyjnej aplikacji Flutter.
+Rozbudowana wersja edukacyjnej aplikacji Flutter – około 550 lekcji i tematów w ścieżkach nauki. Projekt nadal używa dotychczasowego układu nawigacji i stylu Material 3, ale ma znacznie większy zakres nauki oraz nowe narzędzia praktyczne.
 
-## Co zawiera
-- 14 ścieżek nauki, w tym osobne kursy CAD: Tinkercad, Fusion 360, Onshape, Inventor, AutoCAD i FreeCAD.
-- 100 nowych lekcji z mechaniki, 100 z elektroniki i 100 z elektromechaniki (łącznie z wcześniejszymi lekcjami: odpowiednio 105, 106 i 103).
-- Podział rozbudowanych kursów na 10 kategorii po 10 tematów.
-- Lekcje z teorią, analogią, sposobem analizy, zadaniem, ćwiczeniem warsztatowym i quizem.
-- Wzory z opisem symboli oraz jednostek przy każdym wzorze.
-- Mechanika: pomiary, statyka, kinematyka, energia, materiały, napędy, silniki spalinowe, układy silnika i diagnostyka.
-- Elektronika: podstawy elektryczności, prawo Ohma, elementy bierne, diody, tranzystory, logika, pomiary, zasilacze, montaż i diagnostyka.
-- Elektromechanika: elektromagnetyzm, silniki DC/AC, silniki specjalne, alternatory, przekaźniki, czujniki, falowniki i diagnostyka napędów.
-- Elektromechanika odblokowuje się po ukończeniu mechaniki i elektroniki.
-- Symulator obwodu LED, symulator przekładni oraz uproszczony symulator tranzystora NPN w układzie wspólnego emitera (WE).
-- XP, poziomy, postępy i lokalny zapis ukończonych lekcji.
-- Ustawienia motywu, języka, podpowiedzi, preferencji przypomnień, zarządzanie pakietami offline i reset postępów.
-- Zapisywanie wybranych kategorii lub całych kursów w lokalnej pamięci offline.
+## Zawartość kursów
 
-## Ważne ograniczenia tej wersji
-- Treści kursów są obecnie dołączone do aplikacji. Funkcja „Zapisz offline” zapisuje wybrane pakiety lokalnie, ale nie pobiera jeszcze treści z serwera. Prawdziwe pobieranie na żądanie bez dołączania całej bazy do APK wymaga skonfigurowania hostingu/API lub Firebase Storage.
-- Ustawienie przypomnień zapisuje preferencję, ale powiadomienia systemowe nie są jeszcze podłączone.
-- Multimedia (obrazy i filmy) wymagają przygotowania i podpięcia konkretnych materiałów.
-- Treści i symulatory mają charakter edukacyjny. Nie zastępują dokumentacji producenta, kwalifikacji ani nadzoru przy pracy z maszynami i instalacjami.
+- Mechanika: 105 lekcji – jednostki i pomiary, statyka, kinematyka, energia, materiały, wały i łożyska, silniki 2T/4T, układy pomocnicze i diagnostyka.
+- Elektronika: 123 lekcje – podstawy, prawa obwodów, elementy bierne, diody, tranzystory, pomiary, zasilanie, schematy, fale, anteny i systemy alarmowe.
+- Elektromechanika: 103 lekcje – elektromagnetyzm, silniki DC/AC/BLDC, generatory, układy pojazdu, przekaźniki, czujniki, falowniki i diagnostyka.
+- CAD: 130 tematów dla Tinkercad, Fusion 360, Onshape, Inventor, AutoCAD i FreeCAD. Kursy CAD są domyślnie ukryte; włącz je w Profil i ustawienia → Kursy programów CAD.
+- Automatyka, programowanie, Arduino i energetyka: dodatkowe ścieżki praktyczne.
+
+Lekcje zawierają wyjaśnienia, analogie, procedury krok po kroku, przykłady, zadania i quizy. Rozbudowane tematy mają dodatkowe zadania. Wzory posiadają opisy symboli i jednostek. Schematy poglądowe są rysowane wektorowo w aplikacji.
+
+## Nowe funkcje
+
+- Pracownia elektroniczna 2D: symulacja obwodu LED, prądu, mocy rezystora, przerwy i odwrotnej polaryzacji.
+- Trenażer czytania schematów.
+- Kalkulator częstotliwości, długości fali, dipola półfalowego i anteny ćwierćfalowej oraz tabela pasm VLF–EHF.
+- Symulator logiczny systemu alarmowego: kontaktron, PIR, sabotaż i uzbrojenie.
+- Symulator przekładni oraz wcześniejszy model tranzystora WE.
+- Wybór kursów CAD w ustawieniach – wybrane kursy pojawiają się na ekranie Nauka.
+- Elektromechanika wymaga ukończenia mechaniki i elektroniki. Tryb administratora omija blokady.
+- Kod `skladak` w Profil i ustawienia → Kod dostępu uruchamia lokalny panel testera.
+- Panel testera może odblokować ścieżki, oznaczyć wszystkie lekcje jako ukończone i zapisać wszystkie pakiety offline.
+- Ulepszono quizy: odpowiedzi są merytoryczne i zależą od działu, a nie powtarzają jednego zestawu losowych opcji.
+- Workflow GitHub Actions korzysta z nowszych wersji checkout i upload-artifact.
+
+## Ważne ograniczenia
+
+- Kod `skladak` jest celowo prostym kodem testowym zaszytym w aplikacji. Nie jest bezpiecznym uwierzytelnianiem administratora – każdy, kto zna kod lub przeanalizuje APK, może go użyć. W publicznej aplikacji panel administracyjny należy przenieść na backend z prawdziwą autoryzacją.
+- Rysunki w lekcjach są schematami poglądowymi tworzonymi w aplikacji, nie zdjęciami rzeczywistych urządzeń.
+- Pracownia elektroniczna jest edukacyjnym symulatorem uproszczonego obwodu LED, a nie pełnym symulatorem SPICE typu Falstad. Nie modeluje wszystkich charakterystyk półprzewodników ani pasożytniczych parametrów.
+- Pakiety offline zapisują treść lekcji w pamięci lokalnej, ale cała baza jest obecnie dołączona do aplikacji. Prawdziwe pobieranie treści z serwera wymaga hostingu/API lub Firebase Storage.
+- Przypomnienia zapisują preferencję, ale powiadomienia systemowe nie są jeszcze podłączone.
+- Logowanie Google wymaga uzupełnienia `lib/firebase_config.dart` danymi własnego projektu Firebase oraz konfiguracji SHA-1/SHA-256.
 - Postępy są lokalne i nie synchronizują się jeszcze między urządzeniami.
+- Treści o instalacjach, alarmach, maszynach i antenach są edukacyjne. Prace przy sieci 230 V, urządzeniach dużej mocy i instalacjach zabezpieczeń wymagają odpowiednich kwalifikacji, dokumentacji i zgodności z lokalnymi przepisami radiowymi oraz budowlanymi.
 
-## Budowanie APK
-Workflow GitHub Actions buduje testowy APK po pushu do `main`.
-Artefakt: `technik-ai-debug-apk`.
+## Budowanie APK bez Fluttera na komputerze użytkownika
 
-## Logowanie Google – wymagane kroki konfiguracyjne
-Ekran logowania Google i obsługa Firebase Auth są już w kodzie. Żeby logowanie faktycznie działało, trzeba podpiąć własny projekt Firebase – dane OAuth są unikalne dla aplikacji i nie mogę ich wymyślić.
+Po wypchnięciu zmian do gałęzi `main` GitHub Actions sam instaluje Flutter SDK na runnerze i buduje APK. Nie trzeba instalować Fluttera lokalnie.
 
-1. Otwórz https://console.firebase.google.com/ i utwórz projekt.
-2. Dodaj aplikację Android. Identyfikator pakietu po `flutter create` to domyślnie `com.example.technik_ai` (sprawdź `applicationId` w `android/app/build.gradle` lub `android/app/build.gradle.kts`).
-3. W Firebase Authentication → Sign-in method włącz dostawcę Google.
-4. W ustawieniach aplikacji Android dodaj SHA-1 i SHA-256 klucza debug. W katalogu `android` można je wyświetlić poleceniem `./gradlew signingReport` (Windows: `gradlew.bat signingReport`).
-5. W Firebase Project settings → Your apps / OAuth pobierz Web client ID (typ klienta Web application).
-6. Otwórz `lib/firebase_config.dart` i wstaw `apiKey`, `appId`, `messagingSenderId`, `projectId` oraz `webClientId` z własnego projektu Firebase.
-7. Zapisz zmiany i ponownie zbuduj APK przez GitHub Actions.
+1. `git add .`
+2. `git commit -m "TECHNIK AI 0.4.0"
+3. `git push origin main`
+4. Otwórz kartę Actions i pobierz artefakt `technik-ai-debug-apk` z udanego uruchomienia.
 
-W kodzie użyte jest oficjalne okno logowania Google i Firebase Authentication. Nie wpisuj hasła Google w aplikacji. Nie commituj prywatnych kluczy serwisowych ani haseł.
+## Logowanie Google
+
+Ekran logowania Firebase/Google wymaga własnej konfiguracji. Utwórz projekt w Firebase Console, dodaj aplikację Android, włącz Google w Authentication, dodaj odciski SHA-1/SHA-256 i wstaw konfigurację do `lib/firebase_config.dart`. Nie wpisuj hasła Google do kodu aplikacji i nie commituj prywatnych kluczy serwisowych.

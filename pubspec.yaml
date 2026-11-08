@@ -1,7 +1,11 @@
 name: technik_ai
 description: TECHNIK AI - interaktywna platforma nauki techniki.
 publish_to: 'none'
+<<<<<<< HEAD
 version: 0.3.1+4
+=======
+version: 0.4.0+4
+>>>>>>> cca2b38 (TECHNIK AI v0.4.0)
 
 environment:
   sdk: '>=3.3.0 <4.0.0'
