@@ -662,6 +662,98 @@ final lessons = <Lesson>[
   Lesson(id:"em098",course:"electromech",category:"Diagnostyka i serwis",title:"Przegrzewanie uzwojeń",theory:"Przegrzewanie uzwojeń — Diagnostyka napędu obejmuje oględziny, pomiary elektryczne i ocenę mechaniczną. Pomiary izolacji i prace przy maszynach wykonuje wyłącznie osoba z odpowiednimi kwalifikacjami. W tej lekcji skup się na jednym zagadnieniu: przegrzewanie uzwojeń. Zacznij od rozpoznania elementów i pojęć, następnie prześledź zależność przyczyna–skutek. Zapisuj jednostki przy każdej wartości i porównuj wyniki z dokumentacją lub wartością odniesienia. Jeżeli temat dotyczy naprawy, najpierw zabezpiecz stanowisko i nie pomijaj kontroli bezpieczeństwa.",analogy:"Wyobraź sobie stanowisko, na którym możesz obserwować temat „przegrzewanie uzwojeń” osobno, a następnie w całym urządzeniu. Takie podejście pomaga zrozumieć, jak pojedynczy element wpływa na pracę pozostałych części.",how:"1. Określ, co dokładnie analizujesz. 2. Zapisz dane, jednostki i warunki pracy. 3. Sprawdź schemat lub dokumentację. 4. Wykonaj obliczenie albo bezpieczny pomiar. 5. Porównaj wynik z wartością oczekiwaną i zapisz wniosek.",formula:"",symbols:"",example:"Przykład praktyczny: przy zagadnieniu „przegrzewanie uzwojeń” porównaj stan prawidłowy z jednym celowo zmienionym parametrem w schemacie, modelu lub odłączonym stanowisku. Zapisz, jaki objaw powstał i co może go wyjaśniać.",task:"Zadanie: wyjaśnij własnymi słowami, czym jest „przegrzewanie uzwojeń”. Wypisz trzy najważniejsze informacje, podaj przykład zastosowania i opisz, jak sprawdziłbyś ten element lub zjawisko. Do obliczeń używaj jednostek SI.",workshop:"Warsztat: wykonaj schemat blokowy układu związanego z „przegrzewanie uzwojeń”. Oznacz część mechaniczną, elektryczną, zabezpieczenia i sygnały sterujące. Przed jakimkolwiek serwisem odłącz i zabezpiecz źródła energii; pomiary wykonuje wyłącznie osoba z odpowiednimi kwalifikacjami.",question:"Jaka metoda najlepiej pomaga zrozumieć lub sprawdzić temat „Przegrzewanie uzwojeń”?",choices:["Wymienić losowy element bez pomiarów.", "Zignorować dokumentację i zmieniać kilka parametrów naraz.", "Najpierw zrozumieć funkcję, warunki pracy i sposób bezpiecznej weryfikacji: przegrzewanie uzwojeń."],answer:"Najpierw zrozumieć funkcję, warunki pracy i sposób bezpiecznej weryfikacji: przegrzewanie uzwojeń.",xp:25),
   Lesson(id:"em099",course:"electromech",category:"Diagnostyka i serwis",title:"Drgania i hałas napędu",theory:"Drgania i hałas napędu — Diagnostyka napędu obejmuje oględziny, pomiary elektryczne i ocenę mechaniczną. Pomiary izolacji i prace przy maszynach wykonuje wyłącznie osoba z odpowiednimi kwalifikacjami. W tej lekcji skup się na jednym zagadnieniu: drgania i hałas napędu. Zacznij od rozpoznania elementów i pojęć, następnie prześledź zależność przyczyna–skutek. Zapisuj jednostki przy każdej wartości i porównuj wyniki z dokumentacją lub wartością odniesienia. Jeżeli temat dotyczy naprawy, najpierw zabezpiecz stanowisko i nie pomijaj kontroli bezpieczeństwa.",analogy:"Wyobraź sobie stanowisko, na którym możesz obserwować temat „drgania i hałas napędu” osobno, a następnie w całym urządzeniu. Takie podejście pomaga zrozumieć, jak pojedynczy element wpływa na pracę pozostałych części.",how:"1. Określ, co dokładnie analizujesz. 2. Zapisz dane, jednostki i warunki pracy. 3. Sprawdź schemat lub dokumentację. 4. Wykonaj obliczenie albo bezpieczny pomiar. 5. Porównaj wynik z wartością oczekiwaną i zapisz wniosek.",formula:"",symbols:"",example:"Przykład praktyczny: przy zagadnieniu „drgania i hałas napędu” porównaj stan prawidłowy z jednym celowo zmienionym parametrem w schemacie, modelu lub odłączonym stanowisku. Zapisz, jaki objaw powstał i co może go wyjaśniać.",task:"Zadanie: wyjaśnij własnymi słowami, czym jest „drgania i hałas napędu”. Wypisz trzy najważniejsze informacje, podaj przykład zastosowania i opisz, jak sprawdziłbyś ten element lub zjawisko. Do obliczeń używaj jednostek SI.",workshop:"Warsztat: wykonaj schemat blokowy układu związanego z „drgania i hałas napędu”. Oznacz część mechaniczną, elektryczną, zabezpieczenia i sygnały sterujące. Przed jakimkolwiek serwisem odłącz i zabezpiecz źródła energii; pomiary wykonuje wyłącznie osoba z odpowiednimi kwalifikacjami.",question:"Jaka metoda najlepiej pomaga zrozumieć lub sprawdzić temat „Drgania i hałas napędu”?",choices:["Najpierw zrozumieć funkcję, warunki pracy i sposób bezpiecznej weryfikacji: drgania i hałas napędu.", "Wymienić losowy element bez pomiarów.", "Zignorować dokumentację i zmieniać kilka parametrów naraz."],answer:"Najpierw zrozumieć funkcję, warunki pracy i sposób bezpiecznej weryfikacji: drgania i hałas napędu.",xp:25),
   Lesson(id:"em100",course:"electromech",category:"Diagnostyka i serwis",title:"Plan przeglądu napędu",theory:"Plan przeglądu napędu — Diagnostyka napędu obejmuje oględziny, pomiary elektryczne i ocenę mechaniczną. Pomiary izolacji i prace przy maszynach wykonuje wyłącznie osoba z odpowiednimi kwalifikacjami. W tej lekcji skup się na jednym zagadnieniu: plan przeglądu napędu. Zacznij od rozpoznania elementów i pojęć, następnie prześledź zależność przyczyna–skutek. Zapisuj jednostki przy każdej wartości i porównuj wyniki z dokumentacją lub wartością odniesienia. Jeżeli temat dotyczy naprawy, najpierw zabezpiecz stanowisko i nie pomijaj kontroli bezpieczeństwa.",analogy:"Wyobraź sobie stanowisko, na którym możesz obserwować temat „plan przeglądu napędu” osobno, a następnie w całym urządzeniu. Takie podejście pomaga zrozumieć, jak pojedynczy element wpływa na pracę pozostałych części.",how:"1. Określ, co dokładnie analizujesz. 2. Zapisz dane, jednostki i warunki pracy. 3. Sprawdź schemat lub dokumentację. 4. Wykonaj obliczenie albo bezpieczny pomiar. 5. Porównaj wynik z wartością oczekiwaną i zapisz wniosek.",formula:"",symbols:"",example:"Przykład praktyczny: przy zagadnieniu „plan przeglądu napędu” porównaj stan prawidłowy z jednym celowo zmienionym parametrem w schemacie, modelu lub odłączonym stanowisku. Zapisz, jaki objaw powstał i co może go wyjaśniać.",task:"Zadanie: wyjaśnij własnymi słowami, czym jest „plan przeglądu napędu”. Wypisz trzy najważniejsze informacje, podaj przykład zastosowania i opisz, jak sprawdziłbyś ten element lub zjawisko. Do obliczeń używaj jednostek SI.",workshop:"Warsztat: wykonaj schemat blokowy układu związanego z „plan przeglądu napędu”. Oznacz część mechaniczną, elektryczną, zabezpieczenia i sygnały sterujące. Przed jakimkolwiek serwisem odłącz i zabezpiecz źródła energii; pomiary wykonuje wyłącznie osoba z odpowiednimi kwalifikacjami.",question:"Jaka metoda najlepiej pomaga zrozumieć lub sprawdzić temat „Plan przeglądu napędu”?",choices:["Wymienić losowy element bez pomiarów.", "Najpierw zrozumieć funkcję, warunki pracy i sposób bezpiecznej weryfikacji: plan przeglądu napędu.", "Zignorować dokumentację i zmieniać kilka parametrów naraz."],answer:"Najpierw zrozumieć funkcję, warunki pracy i sposób bezpiecznej weryfikacji: plan przeglądu napędu.",xp:25),
+
+  // === ROZBUDOWA ELEKTRONIKI: ANTENY, DIPOLE, FALE, SYSTEMY ALARMOWE ===
+  Lesson(
+    id: 'e_ant1',
+    course: 'electronics',
+    category: 'Anteny i fale',
+    title: 'Dipol półfalowy – zasada działania',
+    theory: 'Dipol półfalowy to najprostsza praktyczna antena liniowa. Całkowita długość wynosi około połowy długości fali (λ/2). Składa się z dwóch ramion o długości λ/4 każde, zasilanych w środku. Prąd zmienny w przewodniku wytwarza zmieniające się pole elektryczne i magnetyczne, które odrywają się od anteny i rozchodzą jako fala elektromagnetyczna.',
+    analogy: 'Wyobraź sobie linę, którą trzęsiesz na środku – fale biegną w obie strony. Podobnie w dipolu energia „odpływa” od środka w postaci fali EM.',
+    how: '1. Oblicz długość fali λ = 300 / f[MHz]. 2. Długość dipola ≈ 0,95 × (λ/2) (współczynnik skrócenia). 3. Zasilaj w środku (niska impedancja). 4. Ustaw oś anteny prostopadle do kierunku, z którego chcesz nadawać/odbierać.',
+    formula: 'λ = 300 / f    oraz    L ≈ 0,95 · (λ / 2)',
+    symbols: 'λ – długość fali [m]; f – częstotliwość [MHz]; L – długość całkowita dipola [m]',
+    example: 'Dla 145 MHz: λ ≈ 2,07 m, więc L ≈ 0,95 × 1,035 ≈ 0,98 m.',
+    task: 'Oblicz przybliżoną długość dipola półfalowego na częstotliwość 433 MHz.',
+    workshop: 'Narysuj dipol z oznaczeniem punktu zasilania i długości ramion. Zaznacz kierunek maksymalnego promieniowania.',
+    question: 'Jaka powinna być przybliżona długość całkowita dipola na 145 MHz?',
+    choices: ['ok. 1 m', 'ok. 2 m', 'ok. 50 cm'],
+    answer: 'ok. 1 m',
+    xp: 30,
+  ),
+  Lesson(
+    id: 'e_ant2',
+    course: 'electronics',
+    category: 'Anteny i fale',
+    title: 'Tabela częstotliwości i długości fal',
+    theory: 'Długość fali i częstotliwość są ściśle związane: im wyższa częstotliwość, tym krótsza fala. Wzór λ[m] = 300 / f[MHz] pozwala szybko oszacować wymiary anteny. Pasma VHF i UHF (metry i decymetry) są najczęściej używane w radiotelefonach, Wi-Fi i systemach alarmowych.',
+    analogy: 'To jak różnica między falami na jeziorze a falami dźwiękowymi – różne długości fal zachowują się inaczej w przestrzeni.',
+    how: 'Zapamiętaj wzór 300/f. Dla Wi-Fi 2,4 GHz λ ≈ 12,5 cm, dla 5 GHz ≈ 6 cm. Dla pasma 2 m (144–146 MHz) λ ≈ 2 m.',
+    formula: 'λ [m] = 300 / f [MHz]',
+    symbols: 'λ – długość fali; f – częstotliwość',
+    example: '433 MHz → λ ≈ 0,69 m (69 cm). 868 MHz → λ ≈ 0,35 m.',
+    task: 'Oblicz długość fali dla częstotliwości 868 MHz (często używane w systemach IoT i alarmowych).',
+    workshop: 'Sporządź tabelę: f [MHz] | λ [m] | typowe zastosowanie dla 145, 433, 868, 2400 MHz.',
+    question: 'Jaka jest długość fali dla 433 MHz?',
+    choices: ['ok. 69 cm', 'ok. 30 cm', 'ok. 1,2 m'],
+    answer: 'ok. 69 cm',
+    xp: 25,
+  ),
+  Lesson(
+    id: 'e_ant3',
+    course: 'electronics',
+    category: 'Anteny i fale',
+    title: 'Rodzaje anten i jak je ustawiać',
+    theory: 'Dipol – dookólny w płaszczyźnie prostopadłej do osi. Yagi-Uda – kierunkowa, ustawiana „dzióbkiem” (directorami) w stronę korespondenta. Ground Plane / antena pionowa – dookólna w poziomie, wymaga przeciwwag. Antena pętlowa – mała, selektywna, głównie do odbioru. Polaryzacja nadajnika i odbiornika powinna być zgodna.',
+    analogy: 'Yagi działa jak reflektor samochodowy – skupia energię w jednym kierunku zamiast rozpraszać na wszystkie strony.',
+    how: '1. Określ pasmo i polaryzację. 2. Wybierz typ (dookólna vs kierunkowa). 3. Zamontuj jak najwyżej, z dala od metalowych przeszkód. 4. Przy Yagi skieruj directory na stację.',
+    formula: '',
+    symbols: '',
+    example: 'Na 2 m do łączności lokalnej wystarczy GP lub dipol. Do dalszej łączności użyj Yagi 3–7 elementów.',
+    task: 'Opisz, jak ustawisz antenę Yagi, gdy chcesz nawiązać łączność z odległą stacją.',
+    workshop: 'Narysuj Yagi: reflektor – element czynny – directory. Zaznacz kierunek maksymalnego promieniowania.',
+    question: 'Jak ustawić antenę Yagi w stronę stacji korespondencyjnej?',
+    choices: ['Reflektorem w stronę stacji', '„Dzióbkiem” (directorami) w stronę stacji', 'Elementem czynnym prostopadle do kierunku'],
+    answer: '„Dzióbkiem” (directorami) w stronę stacji',
+    xp: 30,
+  ),
+  Lesson(
+    id: 'e_alarm1',
+    course: 'electronics',
+    category: 'Systemy alarmowe',
+    title: 'Systemy alarmowe – podstawy i czujniki',
+    theory: 'Podstawowy łańcuch: czujnik → centrala → sygnalizator / powiadomienie. Czujniki PIR wykrywają ruch (zmiany promieniowania podczerwonego), kontaktrony – otwarcie drzwi/okna, czujniki zbicia szyby – charakterystyczny dźwięk/wibracje, czujniki dymu i gazu – ochronę pożarową i tlenek węgla. Pętle sabotażowe z rezystorem EOL pozwalają centrali rozróżnić zwarcie, przerwę i próbę sabotażu.',
+    analogy: 'Centrala to „mózg”, czujniki to „zmysły”, a syrena to „głos” systemu.',
+    how: '1. Dobierz czujniki do zagrożeń. 2. Zastosuj rezystory EOL w pętlach. 3. Podziel obiekt na strefy. 4. Przetestuj każdy czujnik i linię sabotażową.',
+    formula: '',
+    symbols: '',
+    example: 'Kontaktron NC + rezystor 2,2 kΩ na końcu linii. Centrala mierzy rezystancję i wie, czy drzwi są zamknięte, otwarte, czy linia została zwarta/przerwana.',
+    task: 'Wyjaśnij, po co stosuje się rezystor końcowy (EOL) w pętli alarmowej.',
+    workshop: 'Narysuj prosty układ: kontaktron + rezystor EOL + wejście centrali. Oznacz stany: normalny, alarm, sabotaż.',
+    question: 'Dlaczego w pętlach sabotażowych stosuje się rezystory EOL?',
+    choices: ['Żeby zmniejszyć prąd', 'Żeby centrala mogła rozróżnić zwarcie od przerwy i sabotażu', 'Żeby zwiększyć zasięg czujnika'],
+    answer: 'Żeby centrala mogła rozróżnić zwarcie od przerwy i sabotażu',
+    xp: 30,
+  ),
+  Lesson(
+    id: 'e_schema1',
+    course: 'electronics',
+    category: 'Schematy',
+    title: 'Czytanie schematów elektronicznych',
+    theory: 'Na schemacie: rezystor – prostokąt lub zygzak, kondensator – dwie równoległe kreski, cewka – pętle, dioda – trójkąt z kreską, tranzystor NPN/PNP, masa/uziemienie. Sygnały zwykle płyną od lewej do prawej, zasilanie od góry do dołu. Zawsze zaczynaj od znalezienia źródła zasilania i drogi sygnału.',
+    analogy: 'Schemat to mapa miasta – najpierw szukasz głównych dróg (zasilanie i masa), potem konkretnego adresu (elementu).',
+    how: '1. Znajdź źródło zasilania i masę. 2. Przejdź ścieżką sygnału. 3. Odczytaj wartości elementów. 4. Sprawdź polaryzację diod i kondensatorów elektrolitycznych.',
+    formula: '',
+    symbols: '',
+    example: 'Układ LED: +V → rezystor → anoda LED → katoda → masa. Bez rezystora LED ulega uszkodzeniu.',
+    task: 'Na schemacie widzisz symbol dwóch równoległych kresek. Co to jest?',
+    workshop: 'Narysuj prosty układ: bateria 9 V, rezystor 330 Ω, LED, masa. Oznacz kierunek prądu.',
+    question: 'Symbol dwóch równoległych kresek na schemacie oznacza:',
+    choices: ['Rezystor', 'Kondensator', 'Cewkę'],
+    answer: 'Kondensator',
+    xp: 25,
+  ),
 ];
 
 class AppStore extends ChangeNotifier {
@@ -672,6 +764,8 @@ class AppStore extends ChangeNotifier {
   bool english = false;
   bool notificationsEnabled = true;
   bool showHints = true;
+  bool adminUnlocked = false;
+  bool showCadCourses = false;
   String cadChoice = 'Fusion 360';
   String languageChoice = 'C++';
   int xp = 0;
@@ -683,9 +777,25 @@ class AppStore extends ChangeNotifier {
     english = prefs?.getBool('english') ?? false;
     notificationsEnabled = prefs?.getBool('notificationsEnabled') ?? true;
     showHints = prefs?.getBool('showHints') ?? true;
+    adminUnlocked = prefs?.getBool('adminUnlocked') ?? false;
+    showCadCourses = prefs?.getBool('showCadCourses') ?? false;
     xp = prefs?.getInt('xp') ?? 0;
     cadChoice = prefs?.getString('cadChoice') ?? 'Fusion 360';
     languageChoice = prefs?.getString('languageChoice') ?? 'C++';
+  }
+  Future<void> applyCode(String code) async {
+    if (code.trim().toLowerCase() == 'skladak') {
+      adminUnlocked = true;
+      showCadCourses = true;
+      await prefs?.setBool('adminUnlocked', true);
+      await prefs?.setBool('showCadCourses', true);
+      notifyListeners();
+    }
+  }
+  Future<void> toggleCadCourses(bool v) async {
+    showCadCourses = v;
+    await prefs?.setBool('showCadCourses', v);
+    notifyListeners();
   }
   Future<void> finish(Lesson l) async {
     if (completed.add(l.id)) {
@@ -736,6 +846,7 @@ class AppStore extends ChangeNotifier {
   int get xpInLevel => xp % 100;
   double get overall => lessons.isEmpty ? 0 : completed.length / lessons.length;
   bool isUnlocked(String course) {
+    if (course.startsWith('cad_') && !showCadCourses && !adminUnlocked) return false;
     if (course == 'mechanics_diag') return lessons.where((l)=>l.course=='mechanics').every((l)=>completed.contains(l.id));
     if (course == 'electromech') {
       final mechanicsDone = lessons.where((l)=>l.course=='mechanics').every((l)=>completed.contains(l.id));
@@ -1232,6 +1343,53 @@ class ProfilePage extends StatelessWidget {
             subtitle: const Text('Zapisuje preferencję; powiadomienia systemowe wymagają kolejnego etapu konfiguracji'),
             secondary: const Icon(Icons.notifications_active_outlined),
           )),
+          Card(child: SwitchListTile(
+            value: store.showCadCourses,
+            onChanged: store.toggleCadCourses,
+            title: const Text('Pokaż kursy CAD (Tinkercad, Fusion…)'),
+            subtitle: const Text('Kursy CAD są ukryte, dopóki nie włączysz tej opcji lub nie wpiszesz kodu'),
+            secondary: const Icon(Icons.view_in_ar),
+          )),
+          Card(
+            child: Padding(
+              padding: const EdgeInsets.all(16),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  const Text('Kod odblokowujący', style: TextStyle(fontWeight: FontWeight.w600)),
+                  const SizedBox(height: 4),
+                  const Text('Wpisz kod, aby odblokować opcje administracyjne i wszystkie kursy CAD.', style: TextStyle(fontSize: 13)),
+                  const SizedBox(height: 10),
+                  Row(
+                    children: [
+                      Expanded(
+                        child: TextField(
+                          decoration: const InputDecoration(
+                            hintText: 'Wpisz kod…',
+                            border: OutlineInputBorder(),
+                            isDense: true,
+                          ),
+                          onSubmitted: (v) async {
+                            await store.applyCode(v);
+                            if (context.mounted) {
+                              ScaffoldMessenger.of(context).showSnackBar(
+                                SnackBar(content: Text(store.adminUnlocked ? 'Kod zaakceptowany – tryb admina aktywny' : 'Nieprawidłowy kod')),
+                              );
+                            }
+                          },
+                        ),
+                      ),
+                    ],
+                  ),
+                  if (store.adminUnlocked)
+                    const Padding(
+                      padding: EdgeInsets.only(top: 8),
+                      child: Text('Status: Administrator (kod skladak)', style: TextStyle(color: Colors.green, fontWeight: FontWeight.w600)),
+                    ),
+                ],
+              ),
+            ),
+          ),
           Card(
             child: Column(
               children: [
